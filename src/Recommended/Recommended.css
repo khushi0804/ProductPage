@@ -1,0 +1,35 @@
+.recommended-flex{
+    display:flex;
+    margin-left: 18rem;
+}
+
+.recommended-title {
+margin-left:18rem;
+margin-bottom: 20px;
+margin-top:20px;
+font-size:20px;
+font-family: sans-serif;
+
+}
+.btns{
+    padding:5px 17px;
+    margin-right:7px;
+    background: transparent;
+    border:none;
+    bordeR:0.6px solid #ccc;
+    border-radius: 5px;
+    color:#323232;
+    white-space: nowrap; 
+    text-transform: capitalize;
+    transition: all ease 0.5s;
+}
+.btns:hover{
+    background-color: rgb(201, 200, 200);
+    cursor: pointer;
+
+}
+.btns:active{
+    transform: scale(0.9);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
